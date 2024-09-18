@@ -21,5 +21,9 @@ If you have ```conda``` already installed on your compute, follow the steps belo
 * Locate yourself into the folder this repository will be cloned into, by using the ```cd``` command 
 * Type the following command line: ```git clone https://github.com/saballos/modvolc_py_sp.git```, and hit enter. You'll see a new folder named ```modvolc_py_sp```
 * If you are using Windows OS, open a ```conda``` terminal window and locate yourself into the ```modvolc_py_sp``` folder that was cloned. But if you are using linux/Unix or macOS move into the ```modvolc_py_sp``` folder with the ```cd``` command (e.g. ```cd modvolc_py_sp```). Then, type the following command line: ```conda env create -f environment.yml``, and hit enter. This process may take a while
-* You have now created the ```modvolc_py_sp``` conda environment. Type in your terminal ```conda env list``` and you'll see the ```modvolc_py_sp``` env listed, and now you have to activate it by typing the following command: ```conda modvolc_py_sp```
-* 
+* You have now created the ```modvolc_py_sp``` conda environment. Type in your terminal ```conda env list``` and you'll see the ```modvolc_py_sp``` env listed, and now you have to activate it by typing the following command: ```conda modvolc_py_sp```, and hitting enter
+* Since your terminal window (or conda command line window) is located inside the ```modvolc_py_sp``` cloned folder and the ```modvolc_py_sp``` conda environment is activated, type now: ```pip .```, and hit enter. Type ```y``` when prompted and hit enter
+
+#### 2. Installation with pip command:
+* Linux/Unix users open a terminal window and type: ```pip install modvolc_py_sp```, and hit enter
+* For Windows OS users, you need to have installed ```python 3.11``` first, then open a python command line window and type: ```pip install modvolc_py_sp```, and hit enter
