@@ -27,3 +27,17 @@ If you have ```conda``` already installed on your compute, follow the steps belo
 #### 2. Installation with pip command:
 * Linux/Unix users open a terminal window and type: ```pip install modvolc_py_sp```, and hit enter
 * For Windows OS users, you need to have installed ```python 3.11``` first, then open a python command line window and type: ```pip install modvolc_py_sp```, and hit enter
+
+#### 3. python environment creation:
+For linux/Unix users, create a virtal environment in the following way:
+* Clone the ```modvolc_py_sp``` GitHub repository as described above, in section ```1. Conda environment creation```
+* Move yourself into the cloned folder with the ```cd``` command
+* Type in your terminal: ```python3 -m venv modvolc_py_sp```, and hit enter
+* Activate the environment just created by typing: ```source modvolc_py_sp/bin/activate```, and hitting enter
+* Type ```pip install -r requirements.txt```, and hit enter
+
+For Windows OS users:
+* Clone the ```modvolc_py_sp``` GitHub repository as described above, in section ```1. Conda environment creation```
+* Open a python command line window and move yourself into the cloned folder and type in your terminal: ```python.exe -m venv modvolc_py_sp```, and hit enter
+* Activate the enviroment just created by typing: ```modvolc_py_sp\Scripts\activate.bat```, and hitting enter
+* Type ```pip install -r requirements.txt```, and hit enter
