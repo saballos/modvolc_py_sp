@@ -1,8 +1,8 @@
 # modvolc_py_sp
 This is a python script for thermal anomalies extraction for a single point of interest.
-This script is able to download, visualize, compute some basic counting of thermal anomalies and produce CSV format output files for MODIS sensor data processed with the MODVOLC algorithm using the Normalized Thermal Index (NTI) developed by Wright et al. (2002). Automated volcanic eruption detection using MODIS. Remote sensing of environment, 82(1), 135-155. 
-See also: Wright et al. (2004) "MODVOLC: near-real-time thermal monitoring of global volcanism. Journal of Volcanology and Geothermal Research 135.1-2 : 29-49.
-Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanism from space. Geological Society, London, Special Publications, 426(1), 23-53.
+This script is able to download, visualize, compute some basic counting of thermal anomalies and produce CSV format output files for MODIS sensor data processed with the MODVOLC algorithm using the Normalized Thermal Index (NTI) developed by ```Wright et al. (2002). Automated volcanic eruption detection using MODIS. Remote sensing of environment, 82(1), 135-155```. 
+See also: ```Wright et al. (2004) "MODVOLC: near-real-time thermal monitoring of global volcanism. Journal of Volcanology and Geothermal Research 135.1-2 : 29-49```, and 
+```Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanism from space. Geological Society, London, Special Publications, 426(1), 23-53```.
 ## Requirements
 * python (ideally v. 3.11)
 * pandas (ideally v. 2.2.2)
@@ -14,7 +14,7 @@ Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanis
 ## Installation
 There are different ways to install and run this script.
 #### 1. Conda environment creation:
-If you have ```conda``` already installed on your compute, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ``m̀iniconda``` following the instruction on this web page [miniconda page](https://docs.anaconda.com/miniconda/) After the installation of miniconda follow these steps:
+If you have ```conda``` already installed on your OS, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ```miniconda``` following the instruction on this web page [miniconda page](https://docs.anaconda.com/miniconda/). After the installation of miniconda follow these steps:
 
 * Copy the ```URL``` of this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown, i.e. ```https://github.com/saballos/modvolc_py_sp.git```
 * Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded it from the [Git page](https://git-scm.com/downloads) and installed it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal window in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)
