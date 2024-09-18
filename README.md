@@ -12,6 +12,9 @@ Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanis
 * folium (ideally v. 0.16.0)
 * requests (ideally v. 2.31)
 ## Installation
-The easiest way to get all the dependencies installed at once needed for this tool follow the following steps:
-1. Clone this repository to your local computer of codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address
-2. Make sure you have the ```Git``` software already installed in your computer. If not, you must downloaded from the [Git page](https://git-scm.com/downloads) and installed. There is aversion for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)  
+There are different ways to run this script.
+#### 1. Clone this repository:
+To clone this repository follow these steps:
+his is the easiest way to get all the dependencies installed at once needed for this tool follow the following steps:
+* Clone this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown
+* Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded from the [Git page](https://git-scm.com/downloads) and installed it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)  
