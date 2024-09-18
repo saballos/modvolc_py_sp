@@ -12,9 +12,14 @@ Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanis
 * folium (ideally v. 0.16.0)
 * requests (ideally v. 2.31)
 ## Installation
-There are different ways to run this script.
-#### 1. Clone this repository:
-To clone this repository follow these steps:
-his is the easiest way to get all the dependencies installed at once needed for this tool follow the following steps:
-* Clone this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown
-* Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded from the [Git page](https://git-scm.com/downloads) and installed it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)  
+There are different ways to install and run this script.
+#### 1. Conda environment creation:
+If you have ```conda``` already installed on your compute, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ``m̀iniconda``` following the instruction on this web page [miniconda page](https://docs.anaconda.com/miniconda/) After the installation of miniconda follow these steps:
+
+* Copy the ```URL``` of this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown, i.e. ```https://github.com/saballos/modvolc_py_sp.git```
+* Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded it from the [Git page](https://git-scm.com/downloads) and installed it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal window in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)
+* Locate yourself into the folder this repository will be cloned into, by using the ```cd``` command 
+* Type the following command line: ```git clone https://github.com/saballos/modvolc_py_sp.git```, and hit enter. You'll see a new folder named ```modvolc_py_sp```
+* If you are using Windows OS, open a ```conda``` terminal window and locate yourself into the ```modvolc_py_sp``` folder that was cloned. But if you are using linux/Unix or macOS move into the ```modvolc_py_sp``` folder with the ```cd``` command (e.g. ```cd modvolc_py_sp```). Then, type the following command line: ```conda env create -f environment.yml``, and hit enter. This process may take a while
+* You have now created the ```modvolc_py_sp``` conda environment. Type in your terminal ```conda env list``` and you'll see the ```modvolc_py_sp``` env listed, and now you have to activate it by typing the following command: ```conda modvolc_py_sp```
+* 
