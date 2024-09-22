@@ -46,7 +46,7 @@ For Windows OS users:
 To run the script and get the MODVOLC thermal anomalies data for any site of interest, you have to modify the ```input parameters``` inside the file ```modvolc_py_single_point_v1.py```, these parameters are:
 * ```name```: This is the name of your area or site of interest, for instance "Masaya volcano", or "Mount Etna", or "Creek California", etc
 * ```ti```: This is the initial date to look for the thermal anomalies in the format YYYY-MM-DD. So ```ti = "2000-02-01"``` will be February first 2000. This is the earliest date you can get thermal anomalies from the MODVOLC algorithm
-* ```tf```: This is the final date to look for the thermal anomalies in the format YYYY-MM-DD. So ```tf = "2024-11-22"``` will be November 11 2024. You'd be aware that there is a 1-day delay (with regard to the current day) this algorithm is able to process the thermal anomalies
+* ```tf```: This is the final date to look for the thermal anomalies in the format YYYY-MM-DD. So ```tf = "2024-11-22"``` will be November 22 2024. You'd be aware that there is a 1-day delay (with regard to the current day) this algorithm is able to process the thermal anomalies
 * ```lon```: This represents the east longitude geographical coordinate (WGS84) of the area/site of interest in decimal degrees, e.g. -86.163783
 * ```lat```: This represents the north latitude geographical coordinate (WGS84) of the area/site of interest in decimal degrees, e.g. 11.994702
 * ```rad```: This represents the search radious (in kilometers) for thermal anomalies around the given longitude and latitude coordinates
