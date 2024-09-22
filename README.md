@@ -14,7 +14,7 @@ See also: ```Wright et al. (2004) "MODVOLC: near-real-time thermal monitoring of
 ## Installation
 There are different ways to install and run this script. I will describe here only three different installation methods.
 #### 1. Conda environment creation:
-If you have ```conda``` already installed on your OS, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ```miniconda``` following the instruction provided on the ```miniconda``` website [miniconda page](https://docs.anaconda.com/miniconda/). After the installation of miniconda follow these steps:
+If you have ```conda``` already installed on your OS, follow the steps below. If you do not have ```conda``` installed in your system (Linux/Unix, macOS, Windows), I recommend to install ```miniconda``` following the instruction provided on the ```miniconda``` website [miniconda page](https://docs.anaconda.com/miniconda/). After the installation of miniconda follow these steps:
 
 * Copy the ```URL``` of this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown, i.e. ```https://github.com/saballos/modvolc_py_sp.git```
 * Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded it from the [Git page](https://git-scm.com/downloads) and install it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal window in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)
