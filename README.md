@@ -49,7 +49,7 @@ To run the script and get the MODVOLC thermal anomalies data for any site of int
 * ```tf```: This is the final date to look for the thermal anomalies in the format YYYY-MM-DD. So ```tf = "2024-11-22"``` will be November 22 2024. You'd be aware that there is a 1-day delay (with regard to the current day) this algorithm is able to process the thermal anomalies
 * ```lon```: This represents the geographic coordinate longitude (east) of the area/site of interest in decimal degrees, whis is negative for longitudes west of the Greenwich meridian (e.g. -86.163783), and positive to the east of the Greenwich meridian.
 * ```lat```: This represents the geographic coordinate latitude (north) of the area/site of interest in decimal degrees, which is positive for latitudes in the northern hemisphere (e.g. 11.994702), and negative in the southern hemisphere.
-* ```rad```: This represents the search radious (in kilometers) for thermal anomalies around the given longitude and latitude coordinates
+* ```rad```: This represents the search radius (in kilometers) for thermal anomalies around the provided longitude and latitude coordinates.
 
 After you set and save the input parametrs (you can also change the name of the python script if you want, but in that case you should type the proper name when running the script) you can run the script by:
 * Linux/Unix and macOS users type in the command terminal: ```python modvolc_py_single_point_v1.py```, and hit enter
