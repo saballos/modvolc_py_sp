@@ -1,6 +1,6 @@
 # modvolc_py_sp
-This is a python script for thermal anomalies extraction for a single point of interest.
-This script is able to download, visualize, compute some basic counting of thermal anomalies and produce CSV format output files for MODIS sensor data processed with the MODVOLC algorithm using the Normalized Thermal Index (NTI) developed by ```Wright et al. (2002). Automated volcanic eruption detection using MODIS. Remote sensing of environment, 82(1), 135-155```. 
+This is a python script for satellite thermal anomalies extraction of a single point of interest provided by the user through its geographycal coordinates.
+This script is able to download, visualize, compute some basic counting of thermal anomalies and produce a set of CSV-format output files from the MODIS sensor data processed with the MODVOLC algorithm using the Normalized Thermal Index (NTI) developed by ```Wright et al. (2002). Automated volcanic eruption detection using MODIS. Remote sensing of environment, 82(1), 135-155```. 
 See also: ```Wright et al. (2004) "MODVOLC: near-real-time thermal monitoring of global volcanism. Journal of Volcanology and Geothermal Research 135.1-2 : 29-49```, and 
 ```Wright (2016). MODVOLC: 14 years of autonomous observations of effusive volcanism from space. Geological Society, London, Special Publications, 426(1), 23-53```.
 ## Requirements
@@ -12,13 +12,13 @@ See also: ```Wright et al. (2004) "MODVOLC: near-real-time thermal monitoring of
 * folium (ideally v. 0.16.0)
 * requests (ideally v. 2.31)
 ## Installation
-There are different ways to install and run this script.
+There are different ways to install and run this script. I will describe here only three different installation methods.
 #### 1. Conda environment creation:
-If you have ```conda``` already installed on your OS, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ```miniconda``` following the instruction on this web page [miniconda page](https://docs.anaconda.com/miniconda/). After the installation of miniconda follow these steps:
+If you have ```conda``` already installed on your OS, follow the steps below. If you do not have ```conda``` installed it in your system (Linux/Unix, macOS, Windows), I recommend to install ```miniconda``` following the instruction provided on the ```miniconda``` website [miniconda page](https://docs.anaconda.com/miniconda/). After the installation of miniconda follow these steps:
 
 * Copy the ```URL``` of this repository to your local computer or codespace by clicking on the ```<> Code``` green button at the top of this tool's GitHub page and copying the ```HTTPS``` address that is shown, i.e. ```https://github.com/saballos/modvolc_py_sp.git```
-* Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded it from the [Git page](https://git-scm.com/downloads) and installed it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal window in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)
-* Locate yourself into the folder this repository will be cloned into, by using the ```cd``` command 
+* Make sure you have the ```Git``` software already installed on your computer. If not, you must downloaded it from the [Git page](https://git-scm.com/downloads) and install it. There is a version for Linux/Unix, macOS and Windows systems. After the installation of the Git software, open a terminal window in your Linux or macOS system (in Windows OS open a ```git bash``` command line window)
+* Locate yourself into the folder you want this repository to be cloned by using the ```cd``` command 
 * Type the following command line: ```git clone https://github.com/saballos/modvolc_py_sp.git```, and hit enter. You'll see a new folder named ```modvolc_py_sp```
 * If you are using Windows OS, open a ```conda``` terminal window and locate yourself into the ```modvolc_py_sp``` folder that was cloned. But if you are using linux/Unix or macOS move into the ```modvolc_py_sp``` folder with the ```cd``` command (e.g. ```cd modvolc_py_sp```). Then, type the following command line: ```conda env create -f environment.yml``, and hit enter. This process may take a while
 * You have now created the ```modvolc_py_sp``` conda environment. Type in your terminal ```conda env list``` and you'll see the ```modvolc_py_sp``` env listed, and now you have to activate it by typing the following command: ```conda modvolc_py_sp```, and hitting enter
