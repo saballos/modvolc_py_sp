@@ -54,3 +54,10 @@ To run the script and get the MODVOLC thermal anomalies data for any site of int
 After you set and save the input parametrs (you can also change the name of the python script if you want, but in that case you should type the proper name when running the script) you can run the script by:
 * Linux/Unix and macOS users type in the command terminal: ```python modvolc_py_single_point_v1.py```, and hit enter
 * Windows OS user type in the python command line window: ```python.exe modvolc_py_single_point_v1.py```, and hit enter
+
+## Outputs
+After succesfully running the script for you target of interest, you'll get the following outputs:
+* ```output folder```: A folder with the same name you provided as the input ```name``` of your area/site of interest
+* ```csv files```: Five (5) *csv data files will be created, namely:
+* *
+##
