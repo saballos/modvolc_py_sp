@@ -59,5 +59,5 @@ After you set and save the input parametrs (you can also change the name of the 
 After succesfully running the script for you target of interest, you'll get the following outputs:
 * ```output folder```: A folder with the same name you provided as the input ```name``` of your area/site of interest
 * ```csv files```: Five (5) *csv data files will be created, namely:
-* *
+  * A file with all the MODVOLC thermal anomalies detected for the site of inetrest including: date, longitude, latitude and spectral radiance at 4$miu/$m
 ##
