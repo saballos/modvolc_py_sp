@@ -58,6 +58,17 @@ After you set and save the input parametrs (you can also change the name of the 
 ## Outputs
 After succesfully running the script for you target of interest, you'll get the following outputs:
 * ```output folder```: A folder with the same name you provided as the input ```name``` of your area/site of interest
-* ```csv files```: Five (5) *csv data files will be created, namely:```
-  * A file with all the MODVOLC thermal anomalies detected for the site of inetrest including: date, longitude, latitude and spectral radiance at 4 $\mu$ m, 4 μm
-##
+* ```csv files```: Five (5) *csv data files will be created, namely:
+  * A file with all the MODVOLC thermal anomalies detected for the site of inetrest including: date, longitude, latitude and spectral radiance at 4 μm
+  * A file with the daily counts of "hot pixels" and 4 μm thermal radiance
+  * A file with the weekly counts of "hot pixels" and 4 μm thermal radiance
+  * A file with the monthly counts of "hot pixels" and 4 μm thermal radiance
+  * A file with the yearly counts of "hot pixels" and 4 μm thermal radiance
+* ```image files```: Three (3) image/figure files will be generated in two different formats: *png and *pdf. These files are:
+  * A histogram showing the frequency of occurence of the different values of the NTI index
+  * A three panel time-series plot showing the hot pixel count per day, per week, per month and per year
+  * A three panel time-series plot showing the sum of the 4 μm thermal radiance per day, per week, per month and per year
+  * A *.html file that geographically displays all the hot pixels detected on the "OpenTopoMap" topographic database. At the top left you will see a menu where you can select different base maps from the [OpenStreetMaps project](https://www.openstreetmap.org). If you click on any of the displayed points, a box will be displayed with information about the day and time at which the thermal anomaly was detected, its coordinates, NTI and 4 μm thermal radiance values. See the image below as an example for Masaya Caldera (Masaya volcano) in Nicaragua.
+
+![Masaya_volcano_MODVOLC](https://github.com/user-attachments/assets/0ee87994-6a25-4763-b0b0-5934e49daddd)
+
