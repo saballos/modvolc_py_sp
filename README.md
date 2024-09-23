@@ -66,8 +66,14 @@ After succesfully running the script for you target of interest, you'll get the 
   * A file with the yearly counts of "hot pixels" and 4 μm thermal radiance
 * ```image files```: Three (3) image/figure files will be generated in two different formats: *png and *pdf. These files are:
   * A histogram showing the frequency of occurence of the different values of the NTI index
+    ![plot_histogram_NTI_site_Masaya_volcano](https://github.com/user-attachments/assets/5033d969-1234-42d5-92e4-e26fff76705c)
+
   * A three panel time-series plot showing the hot pixel count per day, per week, per month and per year
+    ![plot_site_Masaya_volcano_hot_pixels_MODVOLC](https://github.com/user-attachments/assets/8e71b54b-e2f0-4bb3-a67f-01df3d661274)
+
   * A three panel time-series plot showing the sum of the 4 μm thermal radiance per day, per week, per month and per year
+    ![plot_site_Masaya_volcano_spectral_radiance_MODVOLC](https://github.com/user-attachments/assets/cb0fa0e0-1b0d-4629-a34e-5b9f881da5da)
+
   * A *.html file that geographically displays all the hot pixels detected on the "OpenTopoMap" topographic database. At the top left you will see a menu where you can select different base maps from the [OpenStreetMaps project](https://www.openstreetmap.org). If you click on any of the displayed points, a box will be displayed with information about the day and time at which the thermal anomaly was detected, its coordinates, NTI and 4 μm thermal radiance values. See the image below as an example for Masaya Caldera (Masaya volcano) in Nicaragua.
 
 ![Masaya_volcano_MODVOLC](https://github.com/user-attachments/assets/0ee87994-6a25-4763-b0b0-5934e49daddd)
